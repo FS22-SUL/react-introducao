@@ -14,3 +14,10 @@ export const Aluno = ({nome}) => {
         <li>{nome}</li>
     );
 }
+
+export const Professor = ({children}) => {
+    return (
+        <li style={{fontWeight: "bold"}}>{children}</li>
+    );
+}
+
