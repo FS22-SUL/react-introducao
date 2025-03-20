@@ -2,8 +2,10 @@
 // import { CardDefault } from "./components/Card";
 // import { Aluno, Turma, Professor } from "./components/Classe";
 
+import Avaliacao from "./components/Avaliacao";
 import Perfil from "./components/Perfil";
 import PerfilButton from "./components/PerfilButton";
+import TestUseState from "./components/TestUseState";
 
 const App = () => {
   return (
@@ -43,7 +45,12 @@ const App = () => {
         titulo={"Meu titulo"}
         descricao={"lorem ipsum dolor"}
       /> */}
-      <Perfil>
+      {/* <Perfil
+        nome={"Gleidson rocha"}
+        localizacao={"Fortaleza-CE, Brasil"}
+        cargo={"FullStako"}
+        fotoPerfil={"https://media.licdn.com/dms/image/v2/D4D03AQETYDmbPFUxAA/profile-displayphoto-shrink_400_400/B4DZUMcLz1HYAg-/0/1739670470311?e=1747872000&v=beta&t=Zi1c4Nh_t1JzkYTl2Zu4lyUu0Hi4_NTjegiERWBRboI"}
+      >
         <PerfilButton
           link={"https://linkedin.com/in/gleidson-teixeira"}
           titulo={"Linkedin"}
@@ -53,12 +60,20 @@ const App = () => {
           titulo={"Github"}
         />
       </Perfil>
-      <Perfil>
+      <Perfil
+        nome={"Nagila Silva"}
+        localizacao={"Eusébio-CE, Brasil"}
+        cargo={"Estudante"}
+        fotoPerfil={"https://media.licdn.com/dms/image/v2/D4D03AQHuEvYxAQzfmg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729463162385?e=1747872000&v=beta&t=ED_2yruNomnF7S6qdkA_BtbHP95CsEvB48xT0NqgGE8"}
+      >
         <PerfilButton
           link={"https://google.com"}
           titulo={"Google"}
         />
-      </Perfil>
+      </Perfil> */}
+
+      {/* <TestUseState /> */}
+      <Avaliacao />
     </>
   );
 }
