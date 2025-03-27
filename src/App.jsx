@@ -3,8 +3,11 @@
 // import { Aluno, Turma, Professor } from "./components/Classe";
 
 import Avaliacao from "./components/Avaliacao";
+import BuscaCep from "./components/BuscaCep";
+import FakeStore from "./components/FakeStore";
 import Perfil from "./components/Perfil";
 import PerfilButton from "./components/PerfilButton";
+import TestUseEffect from "./components/TestUseEffect";
 import TestUseState from "./components/TestUseState";
 
 const App = () => {
@@ -73,7 +76,10 @@ const App = () => {
       </Perfil> */}
 
       {/* <TestUseState /> */}
-      <Avaliacao />
+      {/* <Avaliacao /> */}
+      {/* <TestUseEffect /> */}
+      {/* <BuscaCep /> */}
+      <FakeStore />
     </>
   );
 }
